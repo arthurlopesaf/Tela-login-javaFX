@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.telalogin.TelaCadastroClienteController">
+    <children>
+        <Label layoutX="42.0" layoutY="75.0" text="Nome do cliente:">
+            <font>
+                <Font name="Arial Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="67.0" layoutY="118.0" text="Telefone:">
+            <font>
+                <Font name="Arial Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="64.0" layoutY="211.0" text="Endereço:">
+            <font>
+                <Font name="Arial Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="76.0" layoutY="166.0" text="e-mail:">
+            <font>
+                <Font name="Arial Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="48.0" layoutY="257.0" text="Observação:">
+            <font>
+                <Font name="Arial Bold" size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="90.0" layoutY="7.0" text="Tela de cadastro de clientes">
+            <font>
+                <Font name="Arial Bold" size="33.0"/>
+            </font>
+        </Label>
+        <Button layoutX="248.0" layoutY="299.0" mnemonicParsing="false" onAction="#btnCadastrarCliente"
+                text="Cadastrar cliente"/>
+        <Button layoutX="252.0" layoutY="361.0" mnemonicParsing="false" onAction="#btnLimparCampo"
+                text="Limpar campos"/>
+        <TextField fx:id="txtNomeCliente" layoutX="184.0" layoutY="71.0" prefHeight="25.0" prefWidth="342.0"/>
+        <TextField fx:id="txtTelefone" layoutX="142.0" layoutY="113.0" prefHeight="25.0" prefWidth="384.0"/>
+        <TextField fx:id="txtEmail" layoutX="141.0" layoutY="162.0" prefHeight="25.0" prefWidth="384.0"/>
+        <TextField fx:id="txtEndereco" layoutX="142.0" layoutY="206.0" prefHeight="25.0" prefWidth="384.0"/>
+        <TextField fx:id="txtObservacao" layoutX="142.0" layoutY="253.0" prefHeight="25.0" prefWidth="384.0"/>
+    </children>
+</AnchorPane>
